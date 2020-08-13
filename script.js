@@ -25,7 +25,7 @@ function setAttributes(element, attributes) {
 
 //Unsplash API
 const apiKey = 'e1r1XQLkAflKrvnvB1OghAxuOs57d5_eM44Nx5A2Nb0';
-const count = 5;
+let count = 5;
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 //Create Elements for Photos and Add them to DOM
